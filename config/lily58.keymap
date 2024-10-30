@@ -68,7 +68,7 @@
         email: email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp C &kp A &kp M &kp E &kp R &kp O &kp N &kp DOT &kp P &kp L &kp I &kp M &kp S &kp O &kp L &kp L &kp AT &kp R &kp A &kp P &kp I &kp D &kp D &kp E &kp P &kp L &kp O &kp Y &kp DOT &kp C &kp O &kp M &none>;
+            bindings = <&kp C &kp A &kp M &kp E &kp R &kp O &kp N &kp DOT &kp P &kp L &kp I &kp M &kp S &kp O &kp L &kp L &kp AT &kp R &kp A &kp P &kp I &kp D &kp D &kp E &kp P &kp L &kp O &kp Y &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
         };
 
