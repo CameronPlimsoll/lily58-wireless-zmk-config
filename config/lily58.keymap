@@ -15,7 +15,6 @@
         b {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <25 26>;
-            layers = <0>;
         };
 
         l {
@@ -103,11 +102,11 @@
 
         raise {
             bindings = <
-&kp ESCAPE    &kp F1  &kp F2  &kp F3         &kp F4         &kp F5                                     &kp F6             &kp F7  &kp F8  &kp F9  &kp F10      &kp F11
-&bt BT_SEL 0  &trans  &trans  &email         &trans         &launch                                    &kp C_VOLUME_UP    &trans  &trans  &trans  &kp LC(F12)  &kp F12
-&bt BT_SEL 1  &trans  &trans  &trans         &kp BACKSPACE  &kp DELETE                                 &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans       &kp C_AC_HOME
-&trans        &trans  &trans  &kp LS(LG(A))  &kp LS(LG(O))  &trans      &kp LG(LEFT)    &kp LG(RIGHT)  &trans             &trans  &trans  &trans  &trans       &kp END
-                              &trans         &trans         &trans      &trans          &trans         &trans             &trans  &trans
+&kp ESCAPE    &kp F1  &kp F2         &kp F3  &kp F4         &kp F5                                     &kp F6             &kp F7  &kp F8          &kp F9             &kp F10      &kp F11
+&bt BT_SEL 0  &trans  &trans         &email  &trans         &launch                                    &kp C_VOLUME_UP    &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LC(F12)  &kp F12
+&bt BT_SEL 1  &trans  &kp LG(LS(S))  &trans  &kp BACKSPACE  &kp DELETE                                 &kp C_VOLUME_DOWN  &trans  &kp LBKT        &kp RIGHT_BRACKET  &trans       &kp C_AC_HOME
+&trans        &trans  &trans         &trans  &kp LS(LG(V))  &trans      &kp LG(LEFT)    &kp LG(RIGHT)  &trans             &trans  &trans          &trans             &trans       &kp END
+                                     &trans  &trans         &trans      &trans          &trans         &trans             &trans  &trans
             >;
         };
     };
