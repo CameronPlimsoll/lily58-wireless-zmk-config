@@ -57,11 +57,11 @@
 
         raise {
             bindings = <
-&kp ESCAPE    &kp F1  &kp F2         &kp F3        &kp F4         &kp F5                                     &kp F6             &kp F7        &kp F8          &kp F9             &kp F10      &kp F11
-&bt BT_SEL 0  &trans  &trans         &email        &trans         &launch                                    &kp C_VOLUME_UP    &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LC(F12)  &kp F12
-&bt BT_SEL 1  &trans  &kp LG(LS(S))  &trans        &kp BACKSPACE  &kp DELETE                                 &kp C_VOLUME_DOWN  &trans        &kp LBKT        &kp RIGHT_BRACKET  &trans       &kp C_AC_HOME
-&trans        &trans  &trans         &trans        &kp LG(V)      &trans      &kp LG(LEFT)    &kp LG(RIGHT)  &kp PLUS           &kp EQUAL     &trans          &trans             &trans       &kp END
-                                     &kp LEFT_ALT  &kp LEFT_GUI   &trans      &trans          &trans         &trans             &kp LS(HOME)  &kp LS(END)
+&kp ESCAPE    &kp F1  &kp F2         &kp F3        &kp F4         &kp F5                                     &kp F6             &kp F7            &kp F8           &kp F9             &kp F10      &kp F11
+&bt BT_SEL 0  &trans  &trans         &email        &trans         &launch                                    &kp C_VOLUME_UP    &trans            &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp LC(F12)  &kp F12
+&bt BT_SEL 1  &trans  &kp LG(LS(S))  &trans        &kp BACKSPACE  &kp DELETE                                 &kp C_VOLUME_DOWN  &trans            &kp LBKT         &kp RIGHT_BRACKET  &trans       &kp C_AC_HOME
+&trans        &trans  &trans         &trans        &kp LG(V)      &trans      &kp LG(LEFT)    &kp LG(RIGHT)  &kp PLUS           &kp EQUAL         &trans           &trans             &trans       &kp END
+                                     &kp LEFT_ALT  &kp LEFT_GUI   &trans      &trans          &trans         &trans             &kp LC(LS(HOME))  &kp LC(LS(END))
             >;
         };
 
