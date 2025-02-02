@@ -13,12 +13,12 @@
         compatible = "zmk,combos";
 
         Macswitch {
-            bindings = <&tog 2>;
+            bindings = <&to 2>;
             key-positions = <11 23>;
         };
 
         windows {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <49 35>;
         };
     };
