@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/CameronPlimsoll/zmk
+      url-base: https://github.com/CameronPlimsoll
   projects:
     - name: zmk
       remote: zmkfirmware
