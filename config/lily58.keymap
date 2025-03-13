@@ -85,9 +85,9 @@
         raise {
             bindings = <
 &kp ESCAPE    &kp F1        &kp F2         &kp F3        &kp F4         &kp F5                                     &kp F6             &kp F7            &kp F8           &kp F9  &kp F10      &kp F11
-&bt BT_SEL 0  &bt BT_SEL 3  &trans         &email        &trans         &launch                                    &kp C_VOLUME_UP    &kp PLUS          &kp EQUAL        &trans  &kp LC(F12)  &kp F12
-&bt BT_SEL 1  &trans        &kp LG(LS(S))  &trans        &kp BACKSPACE  &kp DELETE                                 &kp C_VOLUME_DOWN  &trans            &trans           &trans  &trans       &kp C_AC_HOME
-&bt BT_SEL 2  &trans        &trans         &trans        &kp LG(V)      &kp DEL     &kp LG(LEFT)    &kp LG(RIGHT)  &kp PLUS           &kp EQUAL         &trans           &trans  &trans       &kp END
+&bt BT_SEL 0  &bt BT_SEL 3  &trans         &email        &trans         &launch                                    &kp C_VOLUME_UP    &trans            &trans           &trans  &kp LC(F12)  &kp F12
+&bt BT_SEL 1  &trans        &kp LG(LS(S))  &trans        &kp BACKSPACE  &kp DELETE                                 &kp C_VOLUME_DOWN  &kp PLUS          &kp EQUAL        &trans  &trans       &kp C_AC_HOME
+&bt BT_SEL 2  &trans        &trans         &trans        &kp LG(V)      &kp DEL     &kp LG(LEFT)    &kp LG(RIGHT)  &trans             &trans            &trans           &trans  &trans       &kp END
                                            &kp LEFT_ALT  &kp LEFT_GUI   &trans      &trans          &mkp LCLK      &mkp RCLK          &kp LC(LS(HOME))  &kp LC(LS(END))
             >;
         };
